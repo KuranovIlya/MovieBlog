@@ -1,0 +1,23 @@
+.img_review{
+    width: 300px;
+}
+.div-frame{
+    height: auto;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 768px) {
+    iframe{
+        width: 100%;
+        height: 270px;
+    }
+}
+
+@media (max-width: 500px) {
+    iframe{
+        height: 230px;
+    }
+}
